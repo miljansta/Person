@@ -21,7 +21,7 @@ class Head implements HeadInterface {
      */
     function __construct(string $hairColor, string $hairLength, string $beard, string $eyeColor, bool $glasses) {
         $this->hairColor  = $hairColor;
-        $this->hairLenght = $hairLenght;
+        $this->hairLenght = $hairLength;
         $this->beard      = $beard;
         $this->eyeColor   = $eyeColor;
         $this->glasses    = $glasses;
