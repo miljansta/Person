@@ -50,9 +50,9 @@ class Person{
     }
 
     /**
-     * @param number $height
+     * @param int $height
      */
-    public function setHeight(number $height)
+    public function setHeight(int $height)
     {
         $this->height = $height;
     }
@@ -62,9 +62,9 @@ class Person{
     }
     
     /**
-     * @param number $weight
+     * @param int $weight
      */
-    public function setWeight(number $weight)
+    public function setWeight(int $weight)
     {
         $this->weight = $weight;
     }
